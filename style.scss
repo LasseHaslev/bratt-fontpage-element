@@ -1,0 +1,46 @@
+.container {
+  .activity {
+
+    h3 {
+        font-size:7vw;
+        margin:0 0 4px;
+        color:white;
+        @media (min-width: 400px) {
+            font-size:5vw;
+        }
+        @media (min-width: 800px) {
+            font-size:1.7vw;
+            margin:0 0 28px;
+        }
+        @media (min-width: 1500px) {
+            font-size:1.2em;
+        }
+    }
+
+    height: 200px;
+    text-align:center;
+    background-size:cover;
+    background-position: center;
+        @media (min-width: 800px) {
+            float:left;
+            width:20%;
+            height: 500px;
+        }
+    }
+    .button {
+        background-color: #555599;
+        padding: 8px 12px;
+        border-radius: 10%;
+        color:white;
+        text-decoration:none;
+        margin-bottom: 8px;
+        &:hover {
+            background-color: #000099;
+        }
+    }
+}
+.vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
